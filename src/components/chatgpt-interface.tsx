@@ -4,7 +4,7 @@ import React, { useState, useRef, useEffect } from 'react'
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { ScrollArea } from "@/components/ui/scroll-area"
-import { Send, Bot, User } from 'lucide-react'
+import { Send, Bot, User, Mail } from 'lucide-react'
 
 export function ChatgptInterface() {
   const [messages, setMessages] = useState([
@@ -122,6 +122,14 @@ export function ChatgptInterface() {
             <span className="sr-only">Send message</span>
           </Button>
         </form>
+      </div>
+
+      {/* Footer */}
+      <div className="bg-secondary text-secondary-foreground p-2 text-sm flex items-center justify-center">
+        <Mail className="w-4 h-4 mr-2" />
+        <a href="mailto:ksio2124@protonmail.ch" className="hover:underline">
+          ksio2124@protonmail.ch
+        </a>
       </div>
     </div>
   )
