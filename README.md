@@ -1,6 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# USA Road Trip Planner
+
+## Tech Stack
+- **Frontend**: React, TypeScript
+- **Styling**: Tailwind CSS
+- **Icons**: Lucide React
+- **Backend**: Node.js
+- **APIs**: Fetch API
+- **Linting**: ESLint
+- **Package Manager**: pnpm
+
+## Features
+- **Chat Interface**: Interactive chat interface for planning road trips in the USA.
+- **Real-time Updates**: Messages update in real-time without page refresh.
+- **Scrolling**: Automatic scrolling to the latest message for better user experience.
+- **User Interaction**: Users can input starting point and destination for trip planning.
+- **Error Handling**: Proper error handling for API requests and responses.
+- **API Integration**: Integration with OpenAI API for generating road trip routes.
+- **System Prompt**: Predefined system prompt for the AI assistant to guide conversation.
+- **Loading Indicator**: Animated "typing" indicator for ChatGPT responses.
+- **Responsive Design**: Responsive layout for different screen sizes.
+- **Email Footer**: Added footer with email contact for user inquiries.
+
+## Usage
+- Start the application and interact with the chat interface.
+- Input starting point and destination for road trip planning.
+- Receive responses from the AI assistant based on the provided information.
+
+Feel free to customize this README template further to include any additional information specific to your project or team.
 
 ## Getting Started
+1. Clone the repository.
+2. Install dependencies using `npm install`.
+3. Set up environment variables, including `OPENAI_API_KEY`.
+4. Start the development server with `npm run dev`.
 
 First, run the development server:
 
@@ -15,22 +47,3 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
