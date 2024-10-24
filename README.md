@@ -1,5 +1,7 @@
 # USA Road Trip Planner
 
+![Demo](https://github.com/ksio2123/roadtrip_chatbot/blob/main/doc/roadtrip_chatgpt.gif)
+
 ## Tech Stack
 - **Frontend**: React, TypeScript
 - **Styling**: Tailwind CSS
